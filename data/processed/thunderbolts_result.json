@@ -1,0 +1,111 @@
+{
+  "film": "thunderbolts",
+  "filmTitle": "Thunderbolts*",
+  "year": 2025,
+  "gapScore": 27.1,
+  "embeddingGap": 50.6,
+  "failureMode": "Translation Zone",
+  "verdictSummary": "Marvel's marketing campaign for Thunderbolts misrepresented the actual film by promoting it as a dynamic action thriller when audiences received a slower character study about mental health and therapy. While the film earned a respectable B+ CinemaScore, nearly half of reviews were negative because viewers felt misled about the movie's true nature. The campaign successfully attracted Marvel fans but failed to prepare them for Florence Pugh's therapy-focused performance and the film's introspective pacing. This mismatch between expectation and delivery likely cost the film positive word-of-mouth from action-oriented audiences.",
+  "deliverySentiment": {
+    "mean": -0.08,
+    "n": 217,
+    "positive": 0.32,
+    "neutral": 0.2,
+    "negative": 0.48
+  },
+  "promiseThemes": [
+    "marvel",
+    "team",
+    "action",
+    "superhero",
+    "thriller",
+    "dynamic",
+    "avengers",
+    "heroes"
+  ],
+  "deliveryThemes": [
+    "mental",
+    "health",
+    "therapy",
+    "florence",
+    "pugh",
+    "slow",
+    "different",
+    "unexpected"
+  ],
+  "aspectMatrix": [
+    {
+      "aspect": "Action Sequences",
+      "promise": 85,
+      "delivery": 50
+    },
+    {
+      "aspect": "Team Dynamics",
+      "promise": 80,
+      "delivery": 65
+    },
+    {
+      "aspect": "Mental Health Theme",
+      "promise": 25,
+      "delivery": 75
+    },
+    {
+      "aspect": "Marvel Spectacle",
+      "promise": 90,
+      "delivery": 45
+    },
+    {
+      "aspect": "Character Depth",
+      "promise": 50,
+      "delivery": 70
+    },
+    {
+      "aspect": "Villain Threat",
+      "promise": 75,
+      "delivery": 40
+    }
+  ],
+  "quotes": [
+    {
+      "text": "They were never heroes. Until now.",
+      "source": "Official Trailer",
+      "sourceType": "trailer"
+    },
+    {
+      "text": "I expected standard MCU action and got a mental health drama. Not bad, just... different.",
+      "source": "Reddit r/marvelstudios",
+      "sourceType": "review"
+    },
+    {
+      "text": "Florence Pugh carries this movie, but it's not the action film they marketed.",
+      "source": "TMDB Review",
+      "sourceType": "review"
+    },
+    {
+      "text": "The mental health angle is commendable but the trailers sold something else entirely.",
+      "source": "Reddit r/movies",
+      "sourceType": "review"
+    }
+  ],
+  "diagnosis": "Marvel's marketing campaign for Thunderbolts misrepresented the actual film by promoting it as a dynamic action thriller when audiences received a slower character study about mental health and therapy. While the film earned a respectable B+ CinemaScore, nearly half of reviews were negative because viewers felt misled about the movie's true nature. The campaign successfully attracted Marvel fans but failed to prepare them for Florence Pugh's therapy-focused performance and the film's introspective pacing. This mismatch between expectation and delivery likely cost the film positive word-of-mouth from action-oriented audiences.",
+  "recommendation": "Release character-focused TV spots highlighting the mental health storylines and Florence Pugh's dramatic performance four weeks before release.",
+  "lostAudience": "Traditional MCU action fans; those who wanted a straightforward superhero team-up.",
+  "posterUrl": "https://image.tmdb.org/t/p/w500/nIDyDGKFmPbZ0BfdE1OEkPHoSh6.jpg",
+  "rtScore": "62%",
+  "cinemaScore": "B+",
+  "diagnostics": {
+    "promise_chunks_kept": 24,
+    "delivery_chunks_kept": 217,
+    "lda_num_topics": 5,
+    "jsd_scaled_x100": 27.1,
+    "embedding_gap": 50.6
+  },
+  "verdict": "Translation Zone",
+  "marketing_label": "HID_SOMETHING",
+  "what_was_promised": "Marvel Studios promised a dynamic superhero thriller featuring team-based action sequences.",
+  "what_was_received": "Audiences experienced a slow-paced character study focused on mental health and therapy themes, with particular attention to Florence Pugh's performance.",
+  "marketing_explanation": "The marketing emphasized 'action', 'superhero', and 'dynamic' elements while audiences actually discussed 'mental', 'health', 'therapy', and 'slow' pacing. The campaign concealed the film's therapeutic character study nature behind traditional Marvel action branding.",
+  "lost_audience": "Action-seeking Marvel fans were most disappointed, expecting fast-paced superhero thrills but receiving introspective therapy-focused storytelling instead.",
+  "full_verdict": "Marvel's marketing campaign for Thunderbolts misrepresented the actual film by promoting it as a dynamic action thriller when audiences received a slower character study about mental health and therapy. While the film earned a respectable B+ CinemaScore, nearly half of reviews were negative because viewers felt misled about the movie's true nature. The campaign successfully attracted Marvel fans but failed to prepare them for Florence Pugh's therapy-focused performance and the film's introspective pacing. This mismatch between expectation and delivery likely cost the film positive word-of-mouth from action-oriented audiences.",
+  "claude_verdict": "Marvel's marketing campaign for Thunderbolts misrepresented the actual film by promoting it as a dynamic action thriller when audiences received a slower character study about mental health and therapy. While the film earned a respectable B+ CinemaScore, nearly half of reviews were negative because viewers felt misled about the movie's true nature. The campaign successfully attracted Marvel fans but failed to prepare them for Florence Pugh's therapy-focused performance and the film's introspective pacing. This mismatch between expectation and delivery likely cost the film positive word-of-mouth from action-oriented audiences."
+}

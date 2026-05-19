@@ -1,0 +1,111 @@
+{
+  "film": "minecraft",
+  "filmTitle": "A Minecraft Movie",
+  "year": 2025,
+  "gapScore": 20.8,
+  "embeddingGap": 31.6,
+  "failureMode": "Aligned Success",
+  "verdictSummary": "The marketing positioned A Minecraft Movie as a standard family adventure, but audiences discovered a genuinely funny comedy powered by Jack Black's comedic talents. While the film succeeded with kids who enjoyed its silly humor, the campaign missed an opportunity to attract comedy fans who would have appreciated its weird, entertaining approach. The positive audience response and strong CinemaScore suggest the movie delivered more laughs than promised, making this a case where more honest comedy marketing could have broadened the appeal. The studio played it safe when they could have celebrated the film's comedic strengths.",
+  "deliverySentiment": {
+    "mean": 0.08,
+    "n": 314,
+    "positive": 0.42,
+    "neutral": 0.23,
+    "negative": 0.35
+  },
+  "promiseThemes": [
+    "minecraft",
+    "game",
+    "adventure",
+    "block",
+    "family",
+    "fun",
+    "jack",
+    "craft"
+  ],
+  "deliveryThemes": [
+    "funny",
+    "weird",
+    "jack",
+    "black",
+    "silly",
+    "kids",
+    "entertaining",
+    "blocky"
+  ],
+  "aspectMatrix": [
+    {
+      "aspect": "Game Faithfulness",
+      "promise": 85,
+      "delivery": 80
+    },
+    {
+      "aspect": "Comedy / Humor",
+      "promise": 75,
+      "delivery": 78
+    },
+    {
+      "aspect": "Visual Style",
+      "promise": 70,
+      "delivery": 65
+    },
+    {
+      "aspect": "Family Appeal",
+      "promise": 80,
+      "delivery": 82
+    },
+    {
+      "aspect": "Story Depth",
+      "promise": 40,
+      "delivery": 35
+    },
+    {
+      "aspect": "Jack Black Factor",
+      "promise": 85,
+      "delivery": 90
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Welcome to the world of Minecraft. Where anything is possible.",
+      "source": "Official Trailer",
+      "sourceType": "trailer"
+    },
+    {
+      "text": "It's exactly what it promised \u2014 silly, weird, and Jack Black being Jack Black. My kids loved it.",
+      "source": "Reddit r/movies",
+      "sourceType": "review"
+    },
+    {
+      "text": "The marketing set expectations perfectly. This is a video game movie that knows what it is.",
+      "source": "TMDB Review",
+      "sourceType": "review"
+    },
+    {
+      "text": "Surprisingly entertaining. They didn't try to be something they're not.",
+      "source": "Reddit r/gaming",
+      "sourceType": "review"
+    }
+  ],
+  "diagnosis": "The marketing positioned A Minecraft Movie as a standard family adventure, but audiences discovered a genuinely funny comedy powered by Jack Black's comedic talents. While the film succeeded with kids who enjoyed its silly humor, the campaign missed an opportunity to attract comedy fans who would have appreciated its weird, entertaining approach. The positive audience response and strong CinemaScore suggest the movie delivered more laughs than promised, making this a case where more honest comedy marketing could have broadened the appeal. The studio played it safe when they could have celebrated the film's comedic strengths.",
+  "recommendation": "Release a comedy-focused trailer highlighting Jack Black's funniest moments and the film's intentionally silly tone rather than positioning it as a serious adventure.",
+  "lostAudience": "Adults expecting deeper content; those who wanted a 'serious' Minecraft adaptation.",
+  "posterUrl": "https://image.tmdb.org/t/p/w500/bis6Djss6DWVMEolExbKSsAXZLe.jpg",
+  "rtScore": "57%",
+  "cinemaScore": "A-",
+  "diagnostics": {
+    "promise_chunks_kept": 15,
+    "delivery_chunks_kept": 314,
+    "lda_num_topics": 5,
+    "jsd_scaled_x100": 20.8,
+    "embedding_gap": 31.6
+  },
+  "verdict": "Aligned Success",
+  "marketing_label": "UNDERSOLD_IT",
+  "what_was_promised": "The studio promised a family-friendly adventure that would bring the beloved Minecraft game to life with blocks, fun, and adventure.",
+  "what_was_received": "Audiences experienced a silly, weird comedy centered around Jack Black's performance that entertained kids but felt more absurd than adventurous.",
+  "marketing_explanation": "The marketing focused on generic 'adventure' and 'family fun' but audiences actually got a comedy vehicle showcasing Jack Black's signature silly humor. The emphasis on 'funny', 'weird', and 'silly' in audience reactions shows the film delivered more entertainment value than the straightforward adventure marketing suggested.",
+  "lost_audience": "Adults expecting a faithful Minecraft adaptation were likely disappointed by the weird, silly comedy approach that prioritized laughs over game authenticity.",
+  "full_verdict": "The marketing positioned A Minecraft Movie as a standard family adventure, but audiences discovered a genuinely funny comedy powered by Jack Black's comedic talents. While the film succeeded with kids who enjoyed its silly humor, the campaign missed an opportunity to attract comedy fans who would have appreciated its weird, entertaining approach. The positive audience response and strong CinemaScore suggest the movie delivered more laughs than promised, making this a case where more honest comedy marketing could have broadened the appeal. The studio played it safe when they could have celebrated the film's comedic strengths.",
+  "claude_verdict": "The marketing positioned A Minecraft Movie as a standard family adventure, but audiences discovered a genuinely funny comedy powered by Jack Black's comedic talents. While the film succeeded with kids who enjoyed its silly humor, the campaign missed an opportunity to attract comedy fans who would have appreciated its weird, entertaining approach. The positive audience response and strong CinemaScore suggest the movie delivered more laughs than promised, making this a case where more honest comedy marketing could have broadened the appeal. The studio played it safe when they could have celebrated the film's comedic strengths."
+}

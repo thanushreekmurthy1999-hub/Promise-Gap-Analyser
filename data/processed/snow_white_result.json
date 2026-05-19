@@ -1,0 +1,111 @@
+{
+  "film": "snow_white",
+  "filmTitle": "Snow White",
+  "year": 2025,
+  "gapScore": 23.3,
+  "embeddingGap": 23.9,
+  "failureMode": "Translation Failure",
+  "verdictSummary": "Disney's Snow White marketing successfully communicated the film's magical musical princess story, but completely lost control of the public conversation. Instead of discussing the promised Disney magic and classic elements, audiences fixated on visual effects problems and cultural controversies. The campaign failed to address or counter negative narratives, allowing technical and political discussions to dominate over the intended fairy tale messaging. While the film achieved a decent critics score, the marketing couldn't prevent audience disappointment from overshadowing the core Disney brand promise.",
+  "deliverySentiment": {
+    "mean": -0.35,
+    "n": 584,
+    "positive": 0.22,
+    "neutral": 0.2,
+    "negative": 0.58
+  },
+  "promiseThemes": [
+    "disney",
+    "princess",
+    "magic",
+    "musical",
+    "remake",
+    "classic",
+    "fairy tale",
+    "enchanting"
+  ],
+  "deliveryThemes": [
+    "cgi",
+    "ugly",
+    "controversy",
+    "flop",
+    "disappointing",
+    "political",
+    "woke",
+    "casting"
+  ],
+  "aspectMatrix": [
+    {
+      "aspect": "Visual Quality",
+      "promise": 85,
+      "delivery": 30
+    },
+    {
+      "aspect": "Musical Numbers",
+      "promise": 75,
+      "delivery": 50
+    },
+    {
+      "aspect": "Story Faithfulness",
+      "promise": 70,
+      "delivery": 35
+    },
+    {
+      "aspect": "Lead Performance",
+      "promise": 80,
+      "delivery": 55
+    },
+    {
+      "aspect": "Supporting Cast",
+      "promise": 65,
+      "delivery": 40
+    },
+    {
+      "aspect": "Nostalgia Factor",
+      "promise": 90,
+      "delivery": 25
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The fairest tale of all... reimagined for a new generation.",
+      "source": "Official Trailer",
+      "sourceType": "trailer"
+    },
+    {
+      "text": "Disney decided to turn one of their most beautiful animated films into ugly CGI slop. Not a single frame looks good.",
+      "source": "Reddit r/movies",
+      "sourceType": "review"
+    },
+    {
+      "text": "The CGI dwarves killed any desire to watch this. That seemed so stupid.",
+      "source": "Reddit r/movies",
+      "sourceType": "review"
+    },
+    {
+      "text": "This film united people from all sides to unanimously hate it.",
+      "source": "Reddit r/boxoffice",
+      "sourceType": "review"
+    }
+  ],
+  "diagnosis": "Disney's Snow White marketing successfully communicated the film's magical musical princess story, but completely lost control of the public conversation. Instead of discussing the promised Disney magic and classic elements, audiences fixated on visual effects problems and cultural controversies. The campaign failed to address or counter negative narratives, allowing technical and political discussions to dominate over the intended fairy tale messaging. While the film achieved a decent critics score, the marketing couldn't prevent audience disappointment from overshadowing the core Disney brand promise.",
+  "recommendation": "Release behind-the-scenes footage showcasing practical effects and craftsmanship to counter the 'ugly CGI' narrative dominating social media.",
+  "lostAudience": "Nostalgic fans of the original; family audiences put off by controversy; those who found the CGI unacceptable.",
+  "posterUrl": "https://image.tmdb.org/t/p/w500/xWWg47tTfparvjK0WJNX4xL8lW2.jpg",
+  "rtScore": "44%",
+  "cinemaScore": "B+",
+  "diagnostics": {
+    "promise_chunks_kept": 30,
+    "delivery_chunks_kept": 584,
+    "lda_num_topics": 5,
+    "jsd_scaled_x100": 23.3,
+    "embedding_gap": 23.9
+  },
+  "verdict": "Translation Zone",
+  "marketing_label": "LOST_NARRATIVE",
+  "what_was_promised": "Disney promised a magical musical remake of the classic Snow White princess story.",
+  "what_was_received": "Audiences focused on poor CGI quality, cultural controversy, and their overall disappointment with the film as a flop.",
+  "marketing_explanation": "The marketing focused on 'disney', 'princess', 'magic', and 'musical' but audiences ignored these elements entirely. Instead, discussion centered on 'controversy', 'flop', 'ugly', and 'political' - showing the campaign lost control of the conversation.",
+  "lost_audience": "Traditional Disney fans expecting a nostalgic magical experience were most disappointed by the controversy and technical execution issues overshadowing the classic story.",
+  "full_verdict": "Disney's Snow White marketing successfully communicated the film's magical musical princess story, but completely lost control of the public conversation. Instead of discussing the promised Disney magic and classic elements, audiences fixated on visual effects problems and cultural controversies. The campaign failed to address or counter negative narratives, allowing technical and political discussions to dominate over the intended fairy tale messaging. While the film achieved a decent critics score, the marketing couldn't prevent audience disappointment from overshadowing the core Disney brand promise.",
+  "claude_verdict": "Disney's Snow White marketing successfully communicated the film's magical musical princess story, but completely lost control of the public conversation. Instead of discussing the promised Disney magic and classic elements, audiences fixated on visual effects problems and cultural controversies. The campaign failed to address or counter negative narratives, allowing technical and political discussions to dominate over the intended fairy tale messaging. While the film achieved a decent critics score, the marketing couldn't prevent audience disappointment from overshadowing the core Disney brand promise."
+}

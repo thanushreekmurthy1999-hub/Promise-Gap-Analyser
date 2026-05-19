@@ -1,0 +1,111 @@
+{
+  "film": "wicked",
+  "filmTitle": "Wicked",
+  "year": 2024,
+  "gapScore": 20.7,
+  "embeddingGap": 30.1,
+  "failureMode": "Aligned Success",
+  "verdictSummary": "Universal's marketing for Wicked successfully conveyed the basic musical theater experience but failed to capture the extraordinary vocal performances that audiences actually received. While the campaign correctly positioned the film around its stars and musical elements, it undersold the exceptional quality of Ariana Grande and Cynthia Erivo's performances that became the primary talking point among viewers. The positive audience response and strong scores indicate this was a missed opportunity to build even higher expectations rather than a problematic oversell. The marketing played it safe when they could have been bolder about showcasing the standout vocal talent.",
+  "deliverySentiment": {
+    "mean": 0.28,
+    "n": 215,
+    "positive": 0.58,
+    "neutral": 0.27,
+    "negative": 0.15
+  },
+  "promiseThemes": [
+    "musical",
+    "wizard",
+    "oz",
+    "ariana",
+    "cynthia",
+    "singing",
+    "broadway",
+    "spectacular"
+  ],
+  "deliveryThemes": [
+    "vocals",
+    "performance",
+    "amazing",
+    "ariana",
+    "cynthia",
+    "musical",
+    "singing",
+    "stunning"
+  ],
+  "aspectMatrix": [
+    {
+      "aspect": "Vocal Performance",
+      "promise": 90,
+      "delivery": 92
+    },
+    {
+      "aspect": "Visual Spectacle",
+      "promise": 85,
+      "delivery": 88
+    },
+    {
+      "aspect": "Story Faithfulness",
+      "promise": 80,
+      "delivery": 78
+    },
+    {
+      "aspect": "Emotional Impact",
+      "promise": 75,
+      "delivery": 80
+    },
+    {
+      "aspect": "Runtime / Pacing",
+      "promise": 70,
+      "delivery": 55
+    },
+    {
+      "aspect": "Supporting Cast",
+      "promise": 65,
+      "delivery": 72
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Two witches. One friendship. A story that defies gravity.",
+      "source": "Official Trailer",
+      "sourceType": "trailer"
+    },
+    {
+      "text": "Cynthia Erivo and Ariana Grande deliver exactly what was promised \u2014 powerhouse vocals and emotional depth.",
+      "source": "Reddit r/movies",
+      "sourceType": "review"
+    },
+    {
+      "text": "This is how you adapt a beloved musical. Faithful, spectacular, and emotionally resonant.",
+      "source": "TMDB Review",
+      "sourceType": "review"
+    },
+    {
+      "text": "The marketing showed us a grand spectacle and that's what we got. Perfect alignment.",
+      "source": "Reddit r/Broadway",
+      "sourceType": "review"
+    }
+  ],
+  "diagnosis": "Universal's marketing for Wicked successfully conveyed the basic musical theater experience but failed to capture the extraordinary vocal performances that audiences actually received. While the campaign correctly positioned the film around its stars and musical elements, it undersold the exceptional quality of Ariana Grande and Cynthia Erivo's performances that became the primary talking point among viewers. The positive audience response and strong scores indicate this was a missed opportunity to build even higher expectations rather than a problematic oversell. The marketing played it safe when they could have been bolder about showcasing the standout vocal talent.",
+  "recommendation": "Release behind-the-scenes vocal performance footage showing Grande and Erivo's raw singing talent during production to better convey the exceptional quality audiences would experience.",
+  "lostAudience": "Minimal \u2014 those who expected something other than a musical likely self-selected out based on clear marketing.",
+  "posterUrl": "https://image.tmdb.org/t/p/w500/c5Tqxeo1UpBvnAc3csUm7j3hlQl.jpg",
+  "rtScore": "89%",
+  "cinemaScore": "A",
+  "diagnostics": {
+    "promise_chunks_kept": 88,
+    "delivery_chunks_kept": 215,
+    "lda_num_topics": 5,
+    "jsd_scaled_x100": 20.7,
+    "embedding_gap": 30.1
+  },
+  "verdict": "Aligned Success",
+  "marketing_label": "UNDERSOLD_IT",
+  "what_was_promised": "Universal Pictures marketed Wicked as a star-powered musical adaptation featuring Ariana Grande and Cynthia Erivo bringing the magical world of Oz to life through song.",
+  "what_was_received": "Audiences experienced exceptional vocal performances and amazing musical execution from Ariana Grande and Cynthia Erivo that exceeded their expectations.",
+  "marketing_explanation": "While marketing emphasized 'musical', 'wizard', and 'oz' elements, audiences were blown away by the actual 'vocals' and 'performance' quality they experienced. The focus on general musical theater aspects undersold the extraordinary caliber of the lead performances.",
+  "lost_audience": "No significant audience segment appears to have been let down, as the film delivered superior performances that surpassed marketing promises.",
+  "full_verdict": "Universal's marketing for Wicked successfully conveyed the basic musical theater experience but failed to capture the extraordinary vocal performances that audiences actually received. While the campaign correctly positioned the film around its stars and musical elements, it undersold the exceptional quality of Ariana Grande and Cynthia Erivo's performances that became the primary talking point among viewers. The positive audience response and strong scores indicate this was a missed opportunity to build even higher expectations rather than a problematic oversell. The marketing played it safe when they could have been bolder about showcasing the standout vocal talent.",
+  "claude_verdict": "Universal's marketing for Wicked successfully conveyed the basic musical theater experience but failed to capture the extraordinary vocal performances that audiences actually received. While the campaign correctly positioned the film around its stars and musical elements, it undersold the exceptional quality of Ariana Grande and Cynthia Erivo's performances that became the primary talking point among viewers. The positive audience response and strong scores indicate this was a missed opportunity to build even higher expectations rather than a problematic oversell. The marketing played it safe when they could have been bolder about showcasing the standout vocal talent."
+}

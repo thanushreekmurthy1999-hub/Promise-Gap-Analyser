@@ -1,0 +1,111 @@
+{
+  "film": "lilo_stitch",
+  "filmTitle": "Lilo & Stitch",
+  "year": 2025,
+  "gapScore": 23.5,
+  "embeddingGap": 54.7,
+  "failureMode": "Aligned Success",
+  "verdictSummary": "Disney's marketing for Lilo and Stitch focused too heavily on basic story elements and didn't capture the emotional depth that audiences actually experienced. While the film received strong reviews and an A CinemaScore, the campaign missed the nostalgic sweetness that resonated most with viewers. The marketing sold a simple alien-family story when audiences found a more emotionally rich experience. This represents a missed opportunity to build even stronger anticipation by highlighting the film's genuine emotional appeal.",
+  "deliverySentiment": {
+    "mean": 0.15,
+    "n": 220,
+    "positive": 0.52,
+    "neutral": 0.27,
+    "negative": 0.21
+  },
+  "promiseThemes": [
+    "ohana",
+    "family",
+    "hawaii",
+    "alien",
+    "heart",
+    "disney",
+    "stitch",
+    "love"
+  ],
+  "deliveryThemes": [
+    "cute",
+    "nostalgic",
+    "fun",
+    "family",
+    "ohana",
+    "sweet",
+    "heartwarming",
+    "stitch"
+  ],
+  "aspectMatrix": [
+    {
+      "aspect": "Ohana Theme",
+      "promise": 90,
+      "delivery": 88
+    },
+    {
+      "aspect": "Stitch Design",
+      "promise": 85,
+      "delivery": 80
+    },
+    {
+      "aspect": "Hawaiian Setting",
+      "promise": 80,
+      "delivery": 82
+    },
+    {
+      "aspect": "Emotional Beats",
+      "promise": 85,
+      "delivery": 78
+    },
+    {
+      "aspect": "Comedy",
+      "promise": 70,
+      "delivery": 72
+    },
+    {
+      "aspect": "Nostalgia",
+      "promise": 90,
+      "delivery": 85
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Ohana means family. Family means nobody gets left behind.",
+      "source": "Official Trailer",
+      "sourceType": "trailer"
+    },
+    {
+      "text": "They actually captured the spirit of the original. Stitch is adorable and the family theme shines through.",
+      "source": "Reddit r/movies",
+      "sourceType": "review"
+    },
+    {
+      "text": "A faithful adaptation that respects the source material. Disney finally got one right.",
+      "source": "TMDB Review",
+      "sourceType": "review"
+    },
+    {
+      "text": "Heartwarming and nostalgic. The ohana message is preserved perfectly.",
+      "source": "Reddit r/disney",
+      "sourceType": "review"
+    }
+  ],
+  "diagnosis": "Disney's marketing for Lilo and Stitch focused too heavily on basic story elements and didn't capture the emotional depth that audiences actually experienced. While the film received strong reviews and an A CinemaScore, the campaign missed the nostalgic sweetness that resonated most with viewers. The marketing sold a simple alien-family story when audiences found a more emotionally rich experience. This represents a missed opportunity to build even stronger anticipation by highlighting the film's genuine emotional appeal.",
+  "recommendation": "Create a secondary trailer campaign emphasizing the nostalgic emotional connection and sweet character moments rather than just the alien premise.",
+  "lostAudience": "Minimal \u2014 purists who prefer the original animation may still prefer it, but the remake found its audience.",
+  "posterUrl": "https://image.tmdb.org/t/p/w500/lQOjLhgPcDIoYRbx9Lna0AjyglE.jpg",
+  "rtScore": "78%",
+  "cinemaScore": "A",
+  "diagnostics": {
+    "promise_chunks_kept": 22,
+    "delivery_chunks_kept": 220,
+    "lda_num_topics": 5,
+    "jsd_scaled_x100": 23.5,
+    "embedding_gap": 54.7
+  },
+  "verdict": "Translation Zone",
+  "marketing_label": "UNDERSOLD_IT",
+  "what_was_promised": "Disney promised a heartwarming story about ohana (family) set in Hawaii featuring an alien character.",
+  "what_was_received": "Audiences experienced a cute, nostalgic, and sweet family film that evoked fond memories.",
+  "marketing_explanation": "The marketing focused on basic story elements like 'alien' and 'hawaii' while audiences responded to deeper emotional qualities like 'nostalgic' and 'sweet'. The positive reception (78% critics, A CinemaScore) suggests the film delivered more emotional resonance than the marketing conveyed.",
+  "lost_audience": "Adults seeking nostalgic entertainment were likely undersold, as the marketing emphasized the alien storyline over the emotional nostalgia that actually resonated.",
+  "full_verdict": "Disney's marketing for Lilo and Stitch focused too heavily on basic story elements and didn't capture the emotional depth that audiences actually experienced. While the film received strong reviews and an A CinemaScore, the campaign missed the nostalgic sweetness that resonated most with viewers. The marketing sold a simple alien-family story when audiences found a more emotionally rich experience. This represents a missed opportunity to build even stronger anticipation by highlighting the film's genuine emotional appeal.",
+  "claude_verdict": "Disney's marketing for Lilo and Stitch focused too heavily on basic story elements and didn't capture the emotional depth that audiences actually experienced. While the film received strong reviews and an A CinemaScore, the campaign missed the nostalgic sweetness that resonated most with viewers. The marketing sold a simple alien-family story when audiences found a more emotionally rich experience. This represents a missed opportunity to build even stronger anticipation by highlighting the film's genuine emotional appeal."
+}

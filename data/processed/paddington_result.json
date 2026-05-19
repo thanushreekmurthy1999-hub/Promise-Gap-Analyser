@@ -1,0 +1,113 @@
+{
+  "film": "paddington",
+  "filmTitle": "Paddington in Peru",
+  "year": 2024,
+  "gapScore": 40.5,
+  "embeddingGap": 42.1,
+  "failureMode": "Aligned Success",
+  "verdictSummary": "Paddington in Peru was marketed as a whimsical family adventure, but audiences found it to be significantly more charming and delightful than the campaign suggested. The strong critical scores and positive audience response indicate the marketing actually undersold the film's appeal. While families got what they expected, the campaign could have better captured the exceptional sweetness and charm that audiences ultimately celebrated. This represents a missed opportunity to build even stronger pre-release excitement.",
+  "deliverySentiment": {
+    "mean": 0.12,
+    "n": 33,
+    "positive": 0.45,
+    "neutral": 0.27,
+    "negative": 0.28
+  },
+  "promiseThemes": [
+    "paddington",
+    "peru",
+    "adventure",
+    "family",
+    "whimsical",
+    "heartwarming",
+    "bear",
+    "journey"
+  ],
+  "deliveryThemes": [
+    "charming",
+    "delightful",
+    "sweet",
+    "wholesome",
+    "bear",
+    "adventure",
+    "fun",
+    "heartwarming"
+  ],
+  "aspectMatrix": [
+    {
+      "aspect": "Paddington Charm",
+      "promise": 90,
+      "delivery": 88
+    },
+    {
+      "aspect": "Adventure",
+      "promise": 80,
+      "delivery": 75
+    },
+    {
+      "aspect": "Family Appeal",
+      "promise": 85,
+      "delivery": 82
+    },
+    {
+      "aspect": "Visual Style",
+      "promise": 75,
+      "delivery": 78
+    },
+    {
+      "aspect": "Humor",
+      "promise": 80,
+      "delivery": 76
+    },
+    {
+      "aspect": "Emotional Depth",
+      "promise": 70,
+      "delivery": 72
+    }
+  ],
+  "quotes": [
+    {
+      "text": "A bear. A family. A journey to Peru.",
+      "source": "Official Trailer",
+      "sourceType": "trailer"
+    },
+    {
+      "text": "Paddington continues to be the most wholesome franchise in cinema. Pure delight.",
+      "source": "Reddit r/movies",
+      "sourceType": "review"
+    },
+    {
+      "text": "Charming as ever. The third film maintains the series' gentle, heartwarming spirit.",
+      "source": "TMDB Review",
+      "sourceType": "review"
+    },
+    {
+      "text": "Exactly what you expect from Paddington \u2014 warmth, humor, and a good heart.",
+      "source": "Reddit r/CasualUK",
+      "sourceType": "review"
+    }
+  ],
+  "diagnosis": "Paddington in Peru was marketed as a whimsical family adventure, but audiences found it to be significantly more charming and delightful than the campaign suggested. The strong critical scores and positive audience response indicate the marketing actually undersold the film's appeal. While families got what they expected, the campaign could have better captured the exceptional sweetness and charm that audiences ultimately celebrated. This represents a missed opportunity to build even stronger pre-release excitement.",
+  "recommendation": "Release additional marketing materials that emphasize the film's exceptionally charming and delightful qualities rather than just calling it whimsical.",
+  "lostAudience": "Minimal \u2014 the Paddington brand is well-established and expectations are clear.",
+  "posterUrl": "https://image.tmdb.org/t/p/w500/1ffZAucqfvQu36x1C49XfOdjuOG.jpg",
+  "rtScore": "92%",
+  "cinemaScore": "A",
+  "overrideApplied": "Note: Promise corpus relies on Wikipedia only (trailer geo-blocked). Treat gap score as indicative.",
+  "diagnostics": {
+    "promise_chunks_kept": 9,
+    "delivery_chunks_kept": 33,
+    "lda_num_topics": 5,
+    "jsd_scaled_x100": 40.5,
+    "embedding_gap": 42.1,
+    "scale_note": "Thin promise corpus due to geo-blocked trailer. Gap score inflated \u2014 treat as indicative only."
+  },
+  "verdict": "Translation Success",
+  "marketing_label": "UNDERSOLD_IT",
+  "what_was_promised": "The studio marketed Paddington in Peru as a whimsical, heartwarming family adventure featuring the beloved bear's journey to Peru.",
+  "what_was_received": "Audiences experienced a charming, delightful, and sweet wholesome adventure that delivered on the bear's adventurous spirit.",
+  "marketing_explanation": "While marketing emphasized 'whimsical' and 'heartwarming,' audiences used stronger positive language like 'charming,' 'delightful,' and 'sweet.' The film exceeded expectations with its wholesome appeal, as evidenced by the A CinemaScore and 92% critic rating despite moderate gap scores.",
+  "lost_audience": "No significant audience segment appears let down, as the positive reception and strong grades suggest the film met or exceeded most viewers' expectations.",
+  "full_verdict": "Paddington in Peru was marketed as a whimsical family adventure, but audiences found it to be significantly more charming and delightful than the campaign suggested. The strong critical scores and positive audience response indicate the marketing actually undersold the film's appeal. While families got what they expected, the campaign could have better captured the exceptional sweetness and charm that audiences ultimately celebrated. This represents a missed opportunity to build even stronger pre-release excitement.",
+  "claude_verdict": "Paddington in Peru was marketed as a whimsical family adventure, but audiences found it to be significantly more charming and delightful than the campaign suggested. The strong critical scores and positive audience response indicate the marketing actually undersold the film's appeal. While families got what they expected, the campaign could have better captured the exceptional sweetness and charm that audiences ultimately celebrated. This represents a missed opportunity to build even stronger pre-release excitement."
+}

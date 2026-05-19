@@ -1,0 +1,111 @@
+{
+  "film": "joker_2",
+  "filmTitle": "Joker: Folie \u00e0 Deux",
+  "year": 2024,
+  "gapScore": 36.1,
+  "embeddingGap": 52.0,
+  "failureMode": "Translation Failure",
+  "verdictSummary": "Warner Bros sold audiences on a dark psychological villain story but delivered a musical sequel, creating a massive disconnect that left 64% of viewers giving negative reviews. The studio completely hid the musical element from their marketing campaign, leading audiences to feel confused and deceived about the film's actual nature. This explains the D CinemaScore and widespread disappointment among fans who came expecting another serious character study. The marketing failure wasn't about quality but about fundamentally misrepresenting what kind of movie this actually was.",
+  "deliverySentiment": {
+    "mean": -0.42,
+    "n": 81,
+    "positive": 0.18,
+    "neutral": 0.18,
+    "negative": 0.64
+  },
+  "promiseThemes": [
+    "joker",
+    "chaos",
+    "villain",
+    "dark",
+    "power",
+    "psychological",
+    "intensity",
+    "madness"
+  ],
+  "deliveryThemes": [
+    "boring",
+    "musical",
+    "disappointed",
+    "waste",
+    "sequel",
+    "confused",
+    "mess",
+    "unexpected"
+  ],
+  "aspectMatrix": [
+    {
+      "aspect": "Genre / Tone",
+      "promise": 85,
+      "delivery": 25
+    },
+    {
+      "aspect": "Action Sequences",
+      "promise": 70,
+      "delivery": 15
+    },
+    {
+      "aspect": "Character Arc",
+      "promise": 80,
+      "delivery": 40
+    },
+    {
+      "aspect": "Music / Songs",
+      "promise": 15,
+      "delivery": 75
+    },
+    {
+      "aspect": "Romance",
+      "promise": 45,
+      "delivery": 65
+    },
+    {
+      "aspect": "Violence / Darkness",
+      "promise": 90,
+      "delivery": 35
+    }
+  ],
+  "quotes": [
+    {
+      "text": "This is the story of Arthur Fleck... and his descent into chaos.",
+      "source": "Official Trailer",
+      "sourceType": "trailer"
+    },
+    {
+      "text": "I was promised a dark psychological thriller and got a Broadway musical. What happened?",
+      "source": "Reddit r/movies",
+      "sourceType": "review"
+    },
+    {
+      "text": "The trailers showed intensity and madness. The movie gave us Lady Gaga singing for two hours.",
+      "source": "Reddit r/DC_Cinematic",
+      "sourceType": "review"
+    },
+    {
+      "text": "Absolutely baffling creative decision to make this a musical.",
+      "source": "TMDB Review",
+      "sourceType": "review"
+    }
+  ],
+  "diagnosis": "Warner Bros sold audiences on a dark psychological villain story but delivered a musical sequel, creating a massive disconnect that left 64% of viewers giving negative reviews. The studio completely hid the musical element from their marketing campaign, leading audiences to feel confused and deceived about the film's actual nature. This explains the D CinemaScore and widespread disappointment among fans who came expecting another serious character study. The marketing failure wasn't about quality but about fundamentally misrepresenting what kind of movie this actually was.",
+  "recommendation": "Release a secondary trailer highlighting the musical numbers and singing performances at least six weeks before opening day.",
+  "lostAudience": "Fans of the original Joker expecting dark psychological content; general audiences who don't enjoy musicals.",
+  "posterUrl": "https://image.tmdb.org/t/p/w500/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg",
+  "rtScore": "33%",
+  "cinemaScore": "D",
+  "diagnostics": {
+    "promise_chunks_kept": 18,
+    "delivery_chunks_kept": 81,
+    "lda_num_topics": 5,
+    "jsd_scaled_x100": 36.1,
+    "embedding_gap": 52.0
+  },
+  "verdict": "Translation Failure",
+  "marketing_label": "HID_SOMETHING",
+  "what_was_promised": "Warner Bros marketed Joker: Folie \u00e0 Deux as a dark psychological thriller focusing on chaos, villainy, and the titular character's menacing power.",
+  "what_was_received": "Audiences experienced a confusing musical sequel that left them bored and disappointed, feeling their time was wasted.",
+  "marketing_explanation": "The marketing emphasized 'joker', 'chaos', 'villain', and 'psychological' themes while completely concealing the musical element. Audiences felt blindsided by discovering it was a 'musical' and expressed being 'confused' about what they had actually signed up to see.",
+  "lost_audience": "Fans of the original Joker film who expected another gritty psychological character study were most betrayed by the undisclosed musical format.",
+  "full_verdict": "Warner Bros sold audiences on a dark psychological villain story but delivered a musical sequel, creating a massive disconnect that left 64% of viewers giving negative reviews. The studio completely hid the musical element from their marketing campaign, leading audiences to feel confused and deceived about the film's actual nature. This explains the D CinemaScore and widespread disappointment among fans who came expecting another serious character study. The marketing failure wasn't about quality but about fundamentally misrepresenting what kind of movie this actually was.",
+  "claude_verdict": "Warner Bros sold audiences on a dark psychological villain story but delivered a musical sequel, creating a massive disconnect that left 64% of viewers giving negative reviews. The studio completely hid the musical element from their marketing campaign, leading audiences to feel confused and deceived about the film's actual nature. This explains the D CinemaScore and widespread disappointment among fans who came expecting another serious character study. The marketing failure wasn't about quality but about fundamentally misrepresenting what kind of movie this actually was."
+}
