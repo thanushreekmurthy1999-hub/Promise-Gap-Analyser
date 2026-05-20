@@ -1522,6 +1522,240 @@ img{display:block;max-width:100%}
   opacity: 0;
   transition: transform .7s var(--e1), opacity .7s var(--e1);
 }
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   MOBILE OPTIMIZATIONS
+══════════════════════════════════════════════════════════════════════════════ */
+@media (max-width: 768px){
+  /* Landing page adjustments */
+  #land-top{
+    height: 56px;
+    padding: 0 20px;
+  }
+  .brand-mark{ width: 24px; height: 24px }
+  .brand-text{ font-size: 12px; letter-spacing: .2em }
+  .brand-text em{ display: none }
+  .top-meta{ display: none }
+  
+  #land-hero{
+    padding: 24px 20px 20px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .hero-eyebrow{ font-size: 9px; margin-bottom: 12px }
+  .hero-title{ font-size: 36px; margin-bottom: 14px }
+  .hero-sub{ font-size: 13px; line-height: 1.6 }
+  
+  #film-search{ height: 48px; font-size: 14px; padding: 0 48px 0 18px }
+  .search-hint{ font-size: 9px }
+  .search-hint kbd{ font-size: 8px; padding: 2px 5px }
+  .stack-label{ font-size: 9px }
+  .stack-chip{ font-size: 9px; padding: 4px 8px }
+  
+  .picker-hed{ padding: 0 20px 14px }
+  .picker-hed-label{ font-size: 9px }
+  #picker-wrap{ padding: 0 20px 24px }
+  #picker-grid{ grid-template-columns: repeat(2, 1fr); gap: 10px }
+  .picker-card{ min-height: 180px }
+  .picker-title{ font-size: 14px }
+  .picker-meta{ font-size: 8px }
+  .picker-corner{ width: 24px; height: 24px; font-size: 8px }
+  
+  /* Analysis view adjustments */
+  #an-topbar{
+    height: 56px;
+    padding: 0 16px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  #an-back{ font-size: 10px; padding: 6px 10px }
+  #an-back svg{ width: 11px; height: 11px }
+  #an-film-title{ font-size: 15px }
+  #an-film-mini-gap{ font-size: 10px }
+  #an-mode-badge{ font-size: 9px; padding: 5px 10px }
+  
+  /* Side nav - make larger for touch */
+  #side-nav{
+    right: 12px;
+    gap: 16px;
+  }
+  .s-dot{
+    width: 8px;
+    height: 8px;
+  }
+  .s-dot.active{ transform: scale(2) }
+  .s-dot::before{ display: none } /* Hide labels on mobile */
+  
+  /* Gap hero section */
+  .gap-grid{
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 24px 20px;
+  }
+  .gap-gauge-wrap{ max-width: 280px }
+  #an-gap-number{ font-size: 72px }
+  .gap-gauge-unit{ font-size: 9px }
+  .gap-gauge-interp{ font-size: 12px }
+  .gap-copy-eyebrow{ font-size: 9px; margin-bottom: 14px }
+  .gap-copy-title{ font-size: 28px; margin-bottom: 16px }
+  .gap-copy-body{ font-size: 13px; margin-bottom: 20px }
+  .gap-secondary{ grid-template-columns: 1fr; gap: 1px }
+  .gap-sec-cell{ padding: 14px 16px }
+  .gap-sec-label{ font-size: 8px }
+  .gap-sec-value{ font-size: 22px }
+  .gap-sec-sub{ font-size: 10px }
+  
+  .scroll-cue{ bottom: 16px; font-size: 8px }
+  .scroll-cue-line{ height: 28px }
+  
+  /* Verdict section */
+  #an-mode{ padding: 48px 20px }
+  .mode-eyebrow{ font-size: 9px; margin-bottom: 24px }
+  #an-mode-title{ font-size: 52px }
+  #an-mode-verdict{ font-size: 16px; margin-bottom: 40px }
+  .chips{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+  .chip{ padding: 14px 12px }
+  .chip-label{ font-size: 8px }
+  .chip-value{ font-size: 20px }
+  .chip-sub{ font-size: 8px }
+  #an-override-box{ padding: 14px 18px; margin-top: 28px }
+  .override-title{ font-size: 9px }
+  #an-override-text{ font-size: 12px }
+  
+  /* Themes section */
+  #an-themes{ padding: 60px 0 48px }
+  .section-header{ padding: 0 20px; margin-bottom: 40px }
+  .section-tag{ font-size: 9px }
+  .section-title{ font-size: 24px }
+  .section-sub{ font-size: 12px }
+  .themes-split{ padding: 0 20px; gap: 32px }
+  .theme-col{ padding: 0 }
+  .theme-col-label{ font-size: 9px }
+  .theme-col-count{ font-size: 9px }
+  .theme-col-title{ font-size: 28px }
+  .theme-num{ font-size: 10px; width: 20px }
+  .theme-text{ font-size: 20px }
+  .theme-pill{ font-size: 9px; padding: 3px 8px }
+  
+  /* Aspects section */
+  #an-aspects{ padding: 60px 20px }
+  .aspects-legend{ flex-direction: column; gap: 12px; align-items: flex-start; margin-bottom: 32px }
+  .aspect-legend-item{ font-size: 9px }
+  .asp-row{
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 12px 0;
+  }
+  .asp-name{ font-size: 15px }
+  .asp-name-sub{ font-size: 8px }
+  .asp-bar-left, .asp-bar-right{ height: 20px }
+  .asp-bar-fill{ font-size: 9px; padding: 0 6px }
+  .asp-delta{ flex-direction: row; gap: 8px; align-items: center }
+  .asp-delta-val{ font-size: 16px }
+  .asp-delta-label{ font-size: 8px }
+  
+  /* Quotes section */
+  #an-quotes{ padding: 60px 20px }
+  .quotes-grid{ columns: 1 }
+  .quote-card{ padding: 24px 20px 18px }
+  .quote-mark{ font-size: 64px; top: 6px; left: 12px }
+  .quote-source{ font-size: 8px; padding: 3px 8px }
+  .quote-text{ font-size: 14px; line-height: 1.65 }
+  
+  /* Diagnosis section */
+  #an-diag{ padding: 60px 20px }
+  .diag-hed{ margin-bottom: 40px; margin-top: 24px }
+  .diag-eyebrow{ font-size: 9px }
+  .diag-title{ font-size: 56px }
+  .diag-quote-block{ padding: 32px 20px; margin-bottom: 48px }
+  .diag-quote-block::before,
+  .diag-quote-block::after{ font-size: 80px }
+  .diag-quote-block::before{ top: -10px }
+  .diag-quote-block::after{ bottom: -40px }
+  #an-diag-text{ font-size: 16px; line-height: 1.75 }
+  .diag-rule{ margin-bottom: 40px }
+  .diag-cards{ grid-template-columns: 1fr }
+  .diag-card{ padding: 20px }
+  .diag-card-label{ font-size: 8px }
+  .diag-card-text{ font-size: 14px }
+  
+  /* Scatter section */
+  #an-scatter{ padding: 60px 20px }
+  #scatter-svg-wrap{ padding: 16px }
+  .scatter-legend{ margin-top: 16px; padding-top: 16px; gap: 16px }
+  .scatter-legend-item{ font-size: 9px }
+  
+  /* Methodology section */
+  #an-method{ padding: 60px 20px }
+  .method-group-hed{ padding: 14px 18px; flex-direction: column; align-items: flex-start; gap: 8px }
+  .method-group-title{ font-size: 10px }
+  .method-group-title .num{ width: 20px; height: 20px; font-size: 9px }
+  .method-group-badge{ font-size: 9px }
+  .method-group-grid{ grid-template-columns: 1fr }
+  .method-cell{ padding: 14px 18px }
+  .method-cell-label{ font-size: 9px }
+  .method-cell-value{ font-size: 12px }
+  .method-cell-value .kv{ font-size: 10px; display: block; margin-bottom: 4px }
+  .method-cell.highlight .method-cell-value{ font-size: 16px }
+  #method-override{ padding: 16px 20px; margin-top: 24px }
+  .method-override-label{ font-size: 9px }
+  #method-override-text{ font-size: 12px }
+  .method-scale-note{ padding: 16px 20px; font-size: 13px; margin-top: 24px }
+  
+  /* Footer */
+  #an-footer{ padding: 36px 20px 32px }
+  .footer-brand{ font-size: 18px }
+  .footer-stack{ font-size: 9px }
+  .footer-stack span{ padding: 2px 6px; margin: 2px 1px }
+}
+
+/* Extra small devices */
+@media (max-width: 480px){
+  .hero-title{ font-size: 32px }
+  #picker-grid{ grid-template-columns: 1fr; gap: 12px }
+  .picker-card{ min-height: 200px }
+  #an-gap-number{ font-size: 64px }
+  .gap-copy-title{ font-size: 24px }
+  #an-mode-title{ font-size: 44px }
+  .diag-title{ font-size: 48px }
+  .theme-col-title{ font-size: 24px }
+  .theme-text{ font-size: 18px }
+}
+
+/* Landscape phones */
+@media (max-width: 768px) and (orientation: landscape){
+  #land-hero{ grid-template-columns: 1fr 1fr; gap: 20px }
+  .gap-grid{ grid-template-columns: 1fr 1fr; gap: 24px }
+  .gap-gauge-wrap{ max-width: 240px }
+}
+
+/* Touch improvements */
+@media (hover: none) and (pointer: coarse){
+  .picker-card{
+    transition: transform .3s var(--e1), border-color .2s;
+  }
+  .picker-card:active{
+    transform: scale(.98);
+  }
+  #an-back{
+    min-height: 44px;
+    min-width: 44px;
+  }
+  .s-dot{
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  .quote-card:hover{
+    transform: none;
+  }
+  .method-cell:hover{
+    background: var(--ink-2);
+  }
+}
 </style>
 </head>
 <body>
